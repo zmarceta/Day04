@@ -1,11 +1,14 @@
 function main() {
-    var myRes = 75;
 	// Only change code below this line
 	
-    myRes++;
-		
+	var myDecimal = 8.2;
+	var myDecimalE = 254 * 10e-6;
+	
 	// Only change code above this line
-    return myRes;
+    return {
+		myDecimal,
+		myDecimalE
+	}
 	
 }
 

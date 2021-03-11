@@ -1,12 +1,11 @@
 function main() {
-    var myRes = 75;
+    var myRes = 16;
 	// Only change code below this line
 	
-    myRes++;
+    myRes--;
 		
 	// Only change code above this line
-    return myRes;
-	
+    return myRes;	
 }
 
 console.log(main());
